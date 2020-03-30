@@ -10,32 +10,35 @@
 var fibonacciArray : [Int] = []
 
 //n개짜리 피보나치수열을만듬
-func makeFibonacciArray(n : Int){
+func makeFibonacciArray(n : String){
     
-    fibonacciArray.append(0)
-    fibonacciArray.append(1)
-    
-    for i in 2...n{
-        fibonacciArray.append(fibonacciArray[i-1]+fibonacciArray[i-2])
+    if let userN = Int(n){
+        fibonacciArray.append(0)
+        fibonacciArray.append(1)
+        
+        for i in 2...userN{
+            fibonacciArray.append(fibonacciArray[i-1]+fibonacciArray[i-2])
+        }
+        
     }
+    
+    
 }
 
 //k번째 피보나치수열의 값을 알려줌
 func findFibonacciNumber(k : String){
-    let userInput = Int(k)
     
-    if let a = userInput{//optional때매 바인딩
+    if let userK = Int(k){//optional때매 바인딩
         print("------------------")
-        print("\(a)번째 피보나치 수열의 값은\(fibonacciArray[userInput!])입니다")}
-        print("------------------")
-    
-    
+        print("\(userK)번째 피보나치 수열의 값은\(fibonacciArray[userK])입니다")
+        print("------------------")}
 }
 
 
 
+print("만들고싶은 피보나치수열의 크기를 입력하세요 : ")
+makeFibonacciArray(n: readLine()!)
 
-makeFibonacciArray(n: 20)
 print("알고싶은 피보나치수열의 인덱스를 입력하세요 : ")
 findFibonacciNumber(k: readLine()!)
 
