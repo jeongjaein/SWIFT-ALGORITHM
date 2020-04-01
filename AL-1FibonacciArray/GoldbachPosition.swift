@@ -21,13 +21,46 @@ func GoldbachPosition(){
     realSosuArray.append(2)
     realSosuArray.append(3)
     
-    var n = Int(readLine()!)!
-    var sosuIndex  = 0
+    let n = Int(readLine()!)!
+    
     for i in 4...n{
-        test(i: i,sosuArray: realSosuArray)
+        makeSosu(i: i,sosuArray: realSosuArray)
     }
+    findGB(n: n)
     
     
+    
+    
+    
+    
+    
+}
+
+
+
+
+func makeSosu(i : Int,sosuArray : [Int]){
+    
+    if i % sosuArray[count] == 0{
+        count = 0
+    }
+    else{
+        count += 1
+        
+        if count < sosuArray.count{
+            makeSosu(i : i,sosuArray: sosuArray)
+        }
+        else {
+            
+            realSosuArray.append(i)
+//            print(i)
+            count = 0
+        }
+    }
+}
+
+
+func findGB(n : Int){
     for i in 0...realSosuArray.count-2{
         for j in 0...realSosuArray.count-2{
             if realSosuArray[i] + realSosuArray[j] == n{
@@ -52,28 +85,4 @@ func GoldbachPosition(){
     }
     
     print("\(gbarry1[index]),\(gbarry2[index]) 가 골드바흐 포지션입니다.")
-    
-}
-
-
-
-
-func test(i : Int,sosuArray : [Int]){
-    
-    if i % sosuArray[count] == 0{
-        count = 0
-    }
-    else{
-        count += 1
-        
-        if count < sosuArray.count{
-            test(i : i,sosuArray: sosuArray)
-        }
-        else {
-            
-            realSosuArray.append(i)
-            print(i)
-            count = 0
-        }
-    }
 }
