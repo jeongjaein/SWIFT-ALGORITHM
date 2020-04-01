@@ -38,9 +38,20 @@ func GoldbachPosition(){
                 
             }
         }
+        
     }
     
+    for i in 0...gbarry1.count-1{
+        
+        if gbarry1[i] > gbarry2[i]{
+            if Max < gbarry1[i] - gbarry2[i]{
+                Max = gbarry1[i] - gbarry2[i]
+                index = i
+            }
+        }
+    }
     
+    print("\(gbarry1[index]),\(gbarry2[index]) 가 골드바흐 포지션입니다.")
     
 }
 
