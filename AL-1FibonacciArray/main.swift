@@ -1,10 +1,10 @@
-//
+
 //  main.swift
 //  FibonacciArray
 //
 //  Created by 정재인 on 2020/03/30.
 //  Copyright © 2020 정재인. All rights reserved.
-//
+
 
 
 //var fibonacciArray : [Int] = []
@@ -41,7 +41,9 @@
 //
 //print("알고싶은 피보나치수열의 인덱스를 입력하세요 : ")
 //findFibonacciNumber(k: readLine()!)
-//
-//
 
-start()
+
+
+//start()
+
+GoldbachPosition()
