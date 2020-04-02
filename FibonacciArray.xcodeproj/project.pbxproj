@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC2AFCB324349CC9002ED3A1 /* GoldbachPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AFCB224349CC9002ED3A1 /* GoldbachPosition.swift */; };
+		CC7DBD202435FF89001D1EC0 /* NumberOfK.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DBD1F2435FF89001D1EC0 /* NumberOfK.swift */; };
 		CC805443243360BB00375C65 /* StringSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC805442243360BB00375C65 /* StringSort.swift */; };
 		CCC603352432017400F6BE82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC603342432017400F6BE82 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		CC2AFCB224349CC9002ED3A1 /* GoldbachPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldbachPosition.swift; sourceTree = "<group>"; };
+		CC7DBD1F2435FF89001D1EC0 /* NumberOfK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfK.swift; sourceTree = "<group>"; };
 		CC805442243360BB00375C65 /* StringSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringSort.swift; sourceTree = "<group>"; };
 		CCC603312432017400F6BE82 /* FibonacciArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FibonacciArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC603342432017400F6BE82 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				CCC603342432017400F6BE82 /* main.swift */,
 				CC805442243360BB00375C65 /* StringSort.swift */,
 				CC2AFCB224349CC9002ED3A1 /* GoldbachPosition.swift */,
+				CC7DBD1F2435FF89001D1EC0 /* NumberOfK.swift */,
 			);
 			path = "AL-1FibonacciArray";
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 				CC805443243360BB00375C65 /* StringSort.swift in Sources */,
 				CCC603352432017400F6BE82 /* main.swift in Sources */,
 				CC2AFCB324349CC9002ED3A1 /* GoldbachPosition.swift in Sources */,
+				CC7DBD202435FF89001D1EC0 /* NumberOfK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

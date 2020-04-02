@@ -45,5 +45,5 @@
 
 
 //start()
-
-GoldbachPosition()
+//GoldbachPosition()
+NumberOfK()
