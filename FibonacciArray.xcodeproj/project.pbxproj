@@ -10,6 +10,7 @@
 		CC2AFCB324349CC9002ED3A1 /* GoldbachPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AFCB224349CC9002ED3A1 /* GoldbachPosition.swift */; };
 		CC7DBD202435FF89001D1EC0 /* NumberOfK.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DBD1F2435FF89001D1EC0 /* NumberOfK.swift */; };
 		CC805443243360BB00375C65 /* StringSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC805442243360BB00375C65 /* StringSort.swift */; };
+		CC82062A243B42F200468430 /* TowerSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC820629243B42F200468430 /* TowerSignal.swift */; };
 		CCC603352432017400F6BE82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC603342432017400F6BE82 /* main.swift */; };
 		CCCA9E1C2437757500F48EB1 /* HowMuch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA9E1B2437757500F48EB1 /* HowMuch.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		CC2AFCB224349CC9002ED3A1 /* GoldbachPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldbachPosition.swift; sourceTree = "<group>"; };
 		CC7DBD1F2435FF89001D1EC0 /* NumberOfK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfK.swift; sourceTree = "<group>"; };
 		CC805442243360BB00375C65 /* StringSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringSort.swift; sourceTree = "<group>"; };
+		CC820629243B42F200468430 /* TowerSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerSignal.swift; sourceTree = "<group>"; };
 		CCC603312432017400F6BE82 /* FibonacciArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FibonacciArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC603342432017400F6BE82 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CCCA9E1B2437757500F48EB1 /* HowMuch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowMuch.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				CC2AFCB224349CC9002ED3A1 /* GoldbachPosition.swift */,
 				CC7DBD1F2435FF89001D1EC0 /* NumberOfK.swift */,
 				CCCA9E1B2437757500F48EB1 /* HowMuch.swift */,
+				CC820629243B42F200468430 /* TowerSignal.swift */,
 			);
 			path = "AL-1FibonacciArray";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 				CC805443243360BB00375C65 /* StringSort.swift in Sources */,
 				CCC603352432017400F6BE82 /* main.swift in Sources */,
 				CC2AFCB324349CC9002ED3A1 /* GoldbachPosition.swift in Sources */,
+				CC82062A243B42F200468430 /* TowerSignal.swift in Sources */,
 				CC7DBD202435FF89001D1EC0 /* NumberOfK.swift in Sources */,
 				CCCA9E1C2437757500F48EB1 /* HowMuch.swift in Sources */,
 			);
