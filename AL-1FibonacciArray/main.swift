@@ -48,4 +48,5 @@
 //GoldbachPosition()
 //NumberOfK()
 //howMuch()
-towerSignal()
+//towerSignal()
+peTheif()

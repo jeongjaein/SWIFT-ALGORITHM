@@ -2,26 +2,26 @@
 //  NumberOfK.swift
 //  FibonacciArray
 //
-//  Created by 정재인 on 2020/04/02.
-//  Copyright © 2020 정재인. All rights reserved.
+////  Created by 정재인 on 2020/04/02.
+////  Copyright © 2020 정재인. All rights reserved.
+////
 //
-
 //import Foundation
 //
 //
 //
 //
 //func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
-//    
-//    
+//
+//
 //    var answerArray : [Int] = []
 //    
 //    for j in 0...commands.count - 1{//46432 -> sorted() -> 23446
 //        answerArray.append(Array(array[commands[j][0]-1...commands[j][1]-1]).sorted()[commands[j][2]-1])
 //    }
-//    
+//
 //    return answerArray
-//    
+//
 //}
 //
 //
@@ -36,5 +36,5 @@
 //func NumberOfK(){
 //    print(solution(array,commands))
 //}
-//
-//
+
+
